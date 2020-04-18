@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Test No.1</title>
 </head>
 <body>
+<title>My Website</title>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1 style="background-color: violet;">Welcome to my website!<h1/>
 
+<p style="background-color: green;">for those of you who dont know much about this website, it tells you date, weather, and some news(not daily)</p>
+<div>
+   <p style="color:white;background-color: purple;">weather: 56c cloudy</p>
+  <div style="background-color: white;"></div>
+  
+  <div style="background-color: green">
+    <p style="color:white">today's date: 3/24/2020</p>
+  </div>
+  
+  <p><a href="https://www.w3schools.com/html/">thanks to HTML tutorial for teaching me awesome things!! Visit their website!</a></p>
+  <h1 style="background-color: blue;">Credits</h1>
+  <div style="background-color:blue">
+    <p style="color:orange">Founder: My mom.    Ideas: Me.    Creator: Me. My mentor: Mom.    My editor: Mom.    Knowledge without my mom: HTML tutorial. More coming soon! (For privacy reasons, I cannot tell you my name :))</p>
+  </div>
+  <p>Big thanks to my mom for creating this webpage for me!!</p>
+  <img src="couple_love_hearts_neon_sign_l14.jpg" alt="this pic does not exist lol" width="500" height="500">
+  <p><a href="https://www.google.com/">oh, and here's google.</a></p>
+  <p id="demo">Click the button to change the layout of this paragraph-just a fun thing-I test things out in this website, and if you want to see more of my work go to the link on the bottom.</p>
+
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "25px"; 
+  x.style.color = "purple"; 
+}
+</script>
+
+<style>
+  body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  </style>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+  </head>
+
+  
+  <h1>Test</h1>
+  <p>seeing if this works.</p>
+
+
+  <p><a href="http://127.0.0.1:8080/dude.html">This is my other website.</a></p>
+  
+
+
+
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+<p>Mouse over the words to change the cursor.</p>
+<span style="cursor:auto">auto</span><br>
+<span style="cursor:crosshair">crosshair</span><br>
+<span style="cursor:default">default</span><br>
+<span style="cursor:e-resize">e-resize</span><br>
+<span style="cursor:help">help</span><br>
+<span style="cursor:move">move</span><br>
+<span style="cursor:n-resize">n-resize</span><br>
+<span style="cursor:ne-resize">ne-resize</span><br>
+<span style="cursor:nw-resize">nw-resize</span><br>
+<span style="cursor:pointer">pointer</span><br>
+<span style="cursor:progress">progress</span><br>
+<span style="cursor:s-resize">s-resize</span><br>
+<span style="cursor:se-resize">se-resize</span><br>
+<span style="cursor:sw-resize">sw-resize</span><br>
+<span style="cursor:text">text</span><br>
+<span style="cursor:w-resize">w-resize</span><br>
+<span style="cursor:wait">wait</span><br>
+
+
+<h1>Input-have fun with this!</h1>
+
+<div>
+<label>1.</label>
+<input type="text" id="firstname">
+</div>
+
+  <div>
+  <label>2.</label>
+  <input type="text" id="lastname">
+  </div>
+
+  <div>
+    <label>3.</label>
+    <input type="text" id="password">
+  </div>
+
+  <div>
+     <button onclick="show()">show my input</button>
+  </div>
+
+  <script>
+      function show() {
+        var fName = parseInt(document.getElementById("firstname").value);
+        var kName = parseInt(document.getElementById("lastname").value);
+        var hName = parseInt(document.getElementById("password").value);
+        alert(fName+kName+hName)
+        
+      }
+  </script>
+
+  
 </body>
 </html>
